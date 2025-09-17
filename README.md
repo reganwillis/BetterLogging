@@ -1,11 +1,12 @@
-# Better Logging for Python
+# Pretty Simple Logging for Python
 
 Simple Python logging. Easy to use and pretty.
 It's just CLI messages for now.
+[Hosted on PyPI](https://pypi.org/project/prettysimplelogging/0.1.0/)
 
 ## Install
 ```
-pip3 install .
+pip install prettysimplelogging==0.1.0
 ```
 
 ## Usage
