@@ -6,7 +6,7 @@ class Message:
     """
     def __init__(self, _text, _type='INFO'):
         # TODO: custom type
-        self.TYPES = ['INFO', 'WARN', 'ERR']
+        self.TYPES = ['INFO', 'WARN', 'ERR', 'SUCC']
         self.type = _type
         self.text = _text
 
@@ -32,6 +32,8 @@ class Message:
             self._color = 'yellow'
         elif self._type == 'ERR':
             self._color = 'red'
+        elif self._type == 'SUCC':
+            self._color = 'green'
 
     @property
     def text(self):
